@@ -1,6 +1,7 @@
 {
   "name": "firstgulp",
   "devDependencies": {
-    "gulp": "~3.5.2"
+    "gulp": "~3.5.2",
+    "gulp-ruby-sass": "~0.3.1"
   }
 }
