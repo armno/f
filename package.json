@@ -1,0 +1,6 @@
+{
+  "name": "firstgulp",
+  "devDependencies": {
+    "gulp": "~3.5.2"
+  }
+}
