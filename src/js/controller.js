@@ -1,1 +1,4 @@
-console.log('controller');
+// example controller module
+var AppController = (function() {
+  return {};
+})();

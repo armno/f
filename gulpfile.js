@@ -2,6 +2,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-ruby-sass');
 var concat = require('gulp-concat');
+var uglify = require('gulp-uglify');
 
 gulp.task('css', function(){
   return gulp.src('./sass/**/*.sass')
@@ -15,6 +16,7 @@ gulp.task('js', function(){
         './src/js/controller.js'
         ])
         .pipe(concat('app.js'))
+        .pipe(uglify())
         .pipe(gulp.dest('./js'));
 });
 

@@ -1,4 +1,1 @@
-// this is the model
-console.log('model');
-
-console.log('controller');
+console.log("model");var AppModel=function(){return{init:function(){}}}(),AppController=function(){return{}}();
